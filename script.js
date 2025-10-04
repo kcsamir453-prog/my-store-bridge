@@ -1,7 +1,6 @@
 async function getAccessToken() {
-  const client_id = "YOUR_CJ_API_KEY";      // Replace with your CJ API key
-  const client_secret = "YOUR_CJ_API_SECRET"; // Replace with your CJ API secret
-
+  const client_id = "89d3fc6214774b4dbe70ffa889e07374";      // Replace with your CJ API key
+  
   try {
     let response = await fetch("https://developers.cjdropshipping.com/api2.0/v1/token/get", {
       method: "POST",
